@@ -1,0 +1,23 @@
+{
+  "name": "APIUniversitasPasundan",
+  "version": "1.0.0",
+  "description": "Api Universitas Pasundan",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+  	"mysql": "~2.4.2",
+  	"express-session":"~1.7.5",
+  	"errorhandler":"~1.1.1",
+  	"cookie-session":"~1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Faerul Salamun",
+    "email": "faerulsalamun@gmail.com"
+  },
+  "license": "MIT"
+}
