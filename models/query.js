@@ -13,10 +13,10 @@ exports.doQuery = function(query, data, callback) {
         else {
           callback(null, results);
         }
-
-        connection.release();
-
       });
     }
+
+    connection.release();
+    
   });
 };
